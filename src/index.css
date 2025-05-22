@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* background-color: #1c1c1c;
+  color: #e4e4e4; */
+  transition: background 300ms;
+
+  background-color: var(--background);
+  /* color:  #1c1c1c; */
+  color:  var(--font);
+}
+
+a {
+    all: unset;
+}
+
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar{ 
+  display: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ---------------------------------Footer-------------------------------- */
+
+footer {
+  display: flex;
+  background-color: var(--background2);
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer a {
+  color: var(--font);
+}
