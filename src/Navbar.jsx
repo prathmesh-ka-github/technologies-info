@@ -30,8 +30,8 @@ function Navbar() {
             <div>Backend</div>
             <div>Database</div>
             <div className="dark-light" >
-                <img id="moon" onClick={Clicked} className="toggl" src="./src/assets/moon.svg" alt="moon" />
-                <img id="sun" onClick={Clicked} className="hidden toggl" src="./src/assets/sun.svg" alt="sun" />
+                <img id="moon" onClick={Clicked} className="toggl" src="/assets/moon.svg" alt="moon" />
+                <img id="sun" onClick={Clicked} className="hidden toggl" src="/assets/sun.svg" alt="sun" />
             </div>
         </div>
     )

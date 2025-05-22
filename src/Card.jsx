@@ -13,7 +13,7 @@ function Card(props) {
 
     return (
         <a href={props.url} target="_blank" className="card">
-            <img src={`/src/assets/${logo}`} alt={props.title} 
+            <img src={`/assets/${logo}`} alt={props.title} 
                 onMouseOver={MouseOver}
                 onMouseOut={MouseOut} />
             <h1>
