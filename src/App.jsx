@@ -9,7 +9,7 @@ function App() {
     <>
       <Title/>
       <Navbar/>
-      <div className="main">
+      <div className="main-container">
         <Frontend/>
 
 {/*         
